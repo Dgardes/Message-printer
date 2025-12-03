@@ -12,6 +12,9 @@ public static String getWelcomeMessage() {
         return "Thank you for using MessagePrinter!";
     }
 
+    public static String getTimeMessage() {
+        return "Current time: " + java.time.LocalTime.now();
+    }
 
     
     public static void main(String[] args) {
